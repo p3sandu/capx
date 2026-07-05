@@ -1,3 +1,5 @@
 bin/
-./todo-maybe.md
+todo-maybe.md
+.gdb_history
+.clang-format
 *.o
