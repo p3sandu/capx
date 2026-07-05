@@ -1,2 +1,3 @@
 bin/
 ./todo-maybe.md
+*.o
