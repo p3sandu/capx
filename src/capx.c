@@ -92,7 +92,7 @@ int main(i32 argc, char *argv[])
         fprintf(stderr, "[!] opening dumpfile: %s\n", pcap_geterr(ctx.capdev));
         return EXIT_FAILURE;
     }
-    printf("[i] writing dump data do %s\n\n", filename);
+    printf("[i] dumping data to %s\n\n", filename);
 
     const int datalink_type = pcap_datalink(ctx.capdev);
     callback_data_t cb_data = {.app_ctx = &ctx,

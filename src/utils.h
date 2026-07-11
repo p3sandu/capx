@@ -46,7 +46,7 @@
 #define FLSTRSZ 256
 #define OFSZ 256
 #define IFSZ 64
-#define PCAP_SAVEFILE "./capture.pcap"
+#define PCAP_SAVEFILE "/tmp/capture.pcap"
 
 typedef struct args
 {
